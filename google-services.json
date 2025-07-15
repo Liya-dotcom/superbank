@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "698853456796",
+    "project_id": "superbank-20",
+    "storage_bucket": "superbank-20.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:698853456796:android:620a3aecefd08578762659",
+        "android_client_info": {
+          "package_name": "com.superbank"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDSza0qZdaih7k8DQbJQnP-_Oi79nXKL2Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
