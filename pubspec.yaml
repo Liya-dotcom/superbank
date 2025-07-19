@@ -7,27 +7,31 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ^3.8.1
+  sdk: ">3.3.0 <4.0.0"
 
 
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^2.15.1
-  firebase_auth: ^4.11.1
+  firebase_core: ^2.30.0
+  firebase_auth: ^4.17.6
+  firebase_auth_web: ^5.8.13
   cloud_firestore: ^4.8.2
   provider: ^6.0.5
-  qr_flutter: ^4.0.0
-  # //uses-material-design: true
-
-
+  qr_flutter: ^4.0.0    
+  js: ^0.6.7
+  # flutter_assets:
+  #   path: assets/652b8400f9121f403bc50e86_Frame 14294 (16).jpg/
   cupertino_icons: ^1.0.8
 
+  
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
   flutter_lints: ^5.0.0
+
+
 
 
   
