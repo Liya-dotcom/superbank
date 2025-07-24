@@ -19,7 +19,7 @@ class BalanceScreen extends StatelessWidget {
             ),
             const SizedBox(height: 20),
             const Text(
-              'R0.00',
+              'R1000.00', 
               style: TextStyle(
                 fontSize: 40,
                 fontWeight: FontWeight.bold,

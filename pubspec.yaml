@@ -7,34 +7,38 @@ publish_to: 'none' # Remove this line if you wish to publish to pub.dev
 version: 1.0.0+1
 
 environment:
-  sdk: ">3.3.0 <4.0.0"
+  sdk: ^3.8.1
 
 
 dependencies:
   flutter:
     sdk: flutter
-  firebase_core: ^2.30.0
-  firebase_auth: ^4.17.6
-  firebase_auth_web: ^5.8.13
-  cloud_firestore: ^4.8.2
+  firebase_core: ^3.15.2
+  firebase_database: ^11.3.10
+  firebase_auth: ^5.7.0
+  firebase_auth_web: ^5.1.0 # Added for web support
+  cloud_firestore: ^5.6.12
   provider: ^6.0.5
-  qr_flutter: ^4.0.0    
-  js: ^0.6.7
-  # flutter_assets:
-  #   path: assets/652b8400f9121f403bc50e86_Frame 14294 (16).jpg/
-  cupertino_icons: ^1.0.8
+  qr_flutter: ^4.0.0
+  # //uses-material-design: true
 
-  
+
+  cupertino_icons: ^1.0.5
+
 dev_dependencies:
   flutter_test:
     sdk: flutter
 
-  flutter_lints: ^5.0.0
+  flutter_lints: ^6.0.0
 
 
-
-
-  
-
-
-  
+flutter:
+  fonts:
+    - family: NotoSans
+      fonts:
+        - asset: assets/fonts/custom/NotoSans-Regular.ttf
+        - asset: assets/fonts/custom/NotoSans-Bold.ttf
+          weight: 700
+  assets:
+    - assets/images/
+   

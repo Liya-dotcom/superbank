@@ -9,8 +9,8 @@ class AppColors {
 }
 
 class AppStrings {
-  static const appName = 'Secure ATM Simulator';
-  static const loginTitle = 'Welcome to Secure ATM';
+  static const appName = 'Superbank Services';
+  static const loginTitle = 'Welcome to Superbank Services';
   static const withdraw = 'Withdraw';
   static const deposit = 'Deposit';
   
