@@ -1,49 +1,22 @@
-# Superbank ATM Services
+# SuperBank – Modern Banking App 🏦  
 
-*Convenient, Secure Banking at Your Fingertips*
+**SuperBank** is a sleek, user-friendly banking application built with Flutter, designed to provide a seamless mobile banking experience.  
 
-## Table of Contents
-- [Overview](#overview)
-- [Features](#features)
-- [Installation](#installation)
-- [Usage](#usage)
-- [API Documentation](#api-documentation)
-- [Contributing](#contributing)
+## Features ✨  
+
+- **Account Overview**: View your balance and recent transactions at a glance.  
+- **Transaction History**: Track all your payments and transfers.  
+- **Quick Actions**: Send money, pay bills, and manage cards with ease.  
+- **Responsive UI**: Clean and intuitive design for smooth navigation.  
+- **Dark/Light Mode**: Supports both themes for user preference.  
 
 
-## Overview
+## Technologies Used 🛠️  
 
-Superbank ATM Services is a modern banking application that brings ATM functionality to your mobile device. Designed with security and convenience in mind, this app provides all traditional ATM services plus innovative digital banking features.
-
-**Key Highlights:**
-- 100% digital ATM experience
-- Military-grade encryption
-- 24/7 account access
-- Supports multiple account types
-- Intuitive user interface
-
-## Features
-
-### Core Banking Services
-- 💳 Account balance checking
-- 💵 Cash withdrawals (virtual)
-- 📥 Deposits (virtual)
-- 🔄 Fund transfers between accounts
-- 📜 Transaction history
-
-### Digital-First Services
-- 📱 Mobile airtime purchase
-- 💡 Electricity bill payments
-- 🏦 Bill payments (utilities, subscriptions)
-- 📊 Spending analytics
-- 🛡️ Advanced security controls
-
-### Security Features
-- 🔒 Biometric authentication
-- 🛡️ End-to-end encryption
-- 🚨 Real-time fraud monitoring
-- 📱 Device authorization
-- ✉️ Transaction alerts
+- **Flutter**: Cross-platform framework for building the UI.  
+- **Dart**: Programming language for app logic.  
+- **Provider**: State management for efficient data handling.  
+- **Mock Data**: Simulated banking data for demo purposes.  
 
 ## Installation
 
@@ -52,49 +25,41 @@ Superbank ATM Services is a modern banking application that brings ATM functiona
 - Dart SDK (version 2.17.0 or higher)
 - Firebase project (for backend services)
 
-### Setup Instructions
+## Installation & Setup ⚙️  
 
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Liya-dotcom/superbank-atm-services.git
-   cd superbank-atm-services
+1. **Clone the repository**:  
+   ```bash  
+   git clone https://github.com/Liya-dotcom/superbank.git  
+   cd superbank  
+   ```  
+
+2. **Install dependencies**:  
+   ```bash  
+   flutter pub get  
+   ```  
+
+3. **Run the app**:  
+   ```bash  
+   flutter run  
    ```
-
-2. **Install dependencies**
-   ```bash
-   flutter pub get
-   ```
-
-3. **Configure Firebase**
-   - Add your `google-services.json` (Android) and `GoogleService-Info.plist` (iOS)
-   - Enable Authentication and Firestore in Firebase Console
-
-4. **Run the app**
-   ```bash
-   flutter run
-   ```
-
-5. **Live App link**
+4. **Live App link**
    ```bash
    https://superbank-6hrv.vercel.app/
    ```
-
 ## Usage
 
 ### Getting Started
-1. Register for an account using your email and phone number
+1. Register for an account using your email 
 2. Verify your email address
 3. Set up your security preferences
-4. Link your bank accounts
-5. Start using Superbank services
+4. Start using Superbank services
 
 ### Common Flows
 **Making a Withdrawal:**
 1. Navigate to Withdraw screen
 2. Select account
 3. Enter amount
-4. Authenticate with biometrics
-5. Receive virtual cash
+4. Receive virtual cash
 
 **Paying Bills:**
 1. Go to Bill Payments
@@ -103,7 +68,7 @@ Superbank ATM Services is a modern banking application that brings ATM functiona
 4. Confirm payment
 5. Receive instant receipt
 
-## API Documentation
+   ## API Documentation
 
 ### Authentication Endpoints
 | Endpoint | Method | Description |
@@ -133,5 +98,12 @@ We welcome contributions from the community! Please follow these steps:
 
 Please read [CONTRIBUTING.md](CONTRIBUTING.md) for detailed contribution guidelines.
 
-## Contributors
-  **Liyabona Thebe**
+## Contribution 🤝  
+
+ **Liyabona Thebe**  
+
+## License 📄  
+MIT License – Free to use and modify.  
+
+---
+
