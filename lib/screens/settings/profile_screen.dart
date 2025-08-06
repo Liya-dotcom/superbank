@@ -26,11 +26,11 @@ class SettingsScreen extends StatelessWidget {
           const SizedBox(height: 20),
           const CircleAvatar(
             radius: 50,
-            backgroundImage: AssetImage('assets/images/picsolo.jpeg'),
+            backgroundImage: AssetImage('assets/images/picsolo.png'),
           ),
           const SizedBox(height: 10),
           const Text(
-            'User name',
+            'Liyabona Thebe',
             style: TextStyle(
                 fontSize: 18, fontWeight: FontWeight.bold, color: Colors.blue),
           ),

@@ -22,7 +22,7 @@ void main() async {
   } else {
     await Firebase.initializeApp();
   }
-  runApp(MyApp());
+  runApp(const MyApp());
 }
 class MyApp extends StatelessWidget {
   const MyApp({super.key});
@@ -40,3 +40,25 @@ class MyApp extends StatelessWidget {
     );
   }
 }
+  @override
+  Widget buildNormalIcons() => GridView(
+    gridDelegate: const SliverGridDelegateWithFixedCrossAxisCount(
+    crossAxisCount: 4,
+    childAspectRatio: 1.0,
+    mainAxisSpacing: 8.0,
+    crossAxisSpacing: 8.0,
+    ),
+    children: [
+      Icon(Icons.home, size: 50),
+      Icon(Icons.search, size: 50),
+      Icon(Icons.notifications, size: 50),
+      Icon(Icons.settings, size: 50),
+      Icon(Icons.add_card, size: 50),
+      Icon(Icons.account_balance, size: 50),
+      Icon(Icons.history, size: 50),
+      Icon(Icons.help, size: 50),
+      Icon(Icons.contact_support, size: 50),
+    ],
+
+  );
+   

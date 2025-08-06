@@ -73,7 +73,7 @@ Widget _accountBalance() {
         ),
         SizedBox(height: 10), // Adds space between label and balance.
         Text(
-          '\$12,345.67', // Account balance amount.
+          'R10,345.67', // Account balance amount.
           style: TextStyle(
             color: Colors.white, // White color for the balance.
             fontSize: 32, // Font size for the balance amount.

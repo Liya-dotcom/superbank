@@ -1,1 +1,41 @@
-{"flutter":{"platforms":{"android":{"default":{"projectId":"superbank-20","appId":"1:698853456796:android:2fa2cb92bfd3ed01762659","fileOutput":"android/app/google-services.json"}},"dart":{"lib/firebase_options.dart":{"projectId":"superbank-20","configurations":{"android":"1:698853456796:android:2fa2cb92bfd3ed01762659","ios":"1:698853456796:ios:7fdbfbe238b30837762659","macos":"1:698853456796:ios:7fdbfbe238b30837762659","web":"1:698853456796:web:522529b1fb7d8324762659","windows":"1:698853456796:web:946fb26069b4088b762659"}}}}}}
+{
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "superbank-20",
+          "appId": "1:698853456796:android:2fa2cb92bfd3ed01762659",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "superbank-20",
+          "configurations": {
+            "android": "1:698853456796:android:2fa2cb92bfd3ed01762659",
+            "ios": "1:698853456796:ios:7fdbfbe238b30837762659",
+            "macos": "1:698853456796:ios:7fdbfbe238b30837762659",
+            "web": "1:698853456796:web:522529b1fb7d8324762659",
+            "windows": "1:698853456796:web:946fb26069b4088b762659"
+          }
+        }
+      }
+    }
+  },
+  "functions": [
+    {
+      "source": "functions",
+      "codebase": "default",
+      "ignore": [
+        "node_modules",
+        ".git",
+        "firebase-debug.log",
+        "firebase-debug.*.log",
+        "*.local"
+      ],
+      "predeploy": [
+        "npm --prefix \"$RESOURCE_DIR\" run lint"
+      ]
+    }
+  ]
+}

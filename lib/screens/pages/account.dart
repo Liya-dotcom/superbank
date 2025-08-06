@@ -60,7 +60,7 @@ class _AccountAndCardPageState extends State<AccountAndCardPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            'Vuyolwethu Thebe',
+            'Liyabona Thebe',
             style: TextStyle(
               color: Colors.white,
               fontSize: 20,
@@ -87,7 +87,7 @@ class _AccountAndCardPageState extends State<AccountAndCardPage> {
                 ),
               ),
               Text(
-                '\R4,400.52',
+                'R4,400.52',
                 style: TextStyle(
                   color: Color.fromARGB(237, 6, 223, 176),
                   fontSize: 24,
@@ -123,7 +123,7 @@ class _AccountAndCardPageState extends State<AccountAndCardPage> {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           Text(
-            'John Kali',
+            'Vuyolwethu Kebe',
             style: TextStyle(
               fontSize: 18,
               fontWeight: FontWeight.bold,
@@ -132,7 +132,7 @@ class _AccountAndCardPageState extends State<AccountAndCardPage> {
           ),
           SizedBox(height: 10),
           Text(
-            'Discover ',
+            'Account Holder',
             style: TextStyle(
               fontSize: 16,
               color: Colors.white70,

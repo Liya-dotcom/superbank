@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AddAcard extends StatefulWidget {
-  const AddAcard({Key? key}) : super(key: key);
+  const AddAcard({super.key});
 
   @override
   _AddAcardState createState() => _AddAcardState();
@@ -149,7 +149,7 @@ class _AddAcardState extends State<AddAcard> {
           crossAxisAlignment: CrossAxisAlignment.start,
           children: [
             const Text(
-              'Vuyolwethu Thebe',
+              'Liyabona Thebe',
               style: TextStyle(
                 color: Colors.white,
                 fontSize: 20,
@@ -176,7 +176,7 @@ class _AddAcardState extends State<AddAcard> {
                   ),
                 ),
                 Text(
-                  '\R4,500.52',
+                  'R4,500.52',
                   style: TextStyle(
                     color: Colors.white,
                     fontSize: 24,

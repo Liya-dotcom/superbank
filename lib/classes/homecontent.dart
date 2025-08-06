@@ -11,7 +11,7 @@ import 'package:superbank/screens/withdraw.dart';
 
 
 class Homecontent extends StatelessWidget {
-  const Homecontent({Key? key}) : super(key: key);
+  const Homecontent({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -121,7 +121,7 @@ Widget _upperText() {
           style: TextStyle(fontSize: 22, fontWeight: FontWeight.bold, color: Colors.white),
         ),
         Text(
-          'Vuyolwethu',
+          'Liyabona',
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold, color: Color.fromARGB(237, 6, 223, 176)),
         ),
         SizedBox(height: 20),
@@ -152,7 +152,7 @@ Widget _materCardSection() {
         crossAxisAlignment: CrossAxisAlignment.start,
         children: [
           const Text(
-            'Vuyolwethu Thebe',
+            'Liyabona Thebe',
             style: TextStyle(
               color: Colors.white,
               fontSize: 20,
@@ -179,7 +179,7 @@ Widget _materCardSection() {
                 ),
               ),
               Text(
-                '\R4,500.52',
+                'R4,500.52',
                 style: TextStyle(
                   color: Colors.white,
                   fontSize: 24,

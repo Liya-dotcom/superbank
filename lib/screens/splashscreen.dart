@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:superbank/screens/loginscreen.dart';
 
 class Splashscreen extends StatefulWidget {
-  const Splashscreen({Key? key}) : super(key: key);
+  const Splashscreen({super.key});
 
   @override
   _SplashscreenState createState() => _SplashscreenState();

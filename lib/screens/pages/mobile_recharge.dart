@@ -113,7 +113,7 @@ class TransferAmountScreen extends StatelessWidget {
           children: [
             const CircleAvatar(
               radius: 40,
-              backgroundImage: AssetImage('assets/images/picsolo.jpeg'),
+              backgroundImage: AssetImage('assets/images/picsolo.png'),
             ),
             const SizedBox(height: 10),
             Text(
@@ -123,7 +123,7 @@ class TransferAmountScreen extends StatelessWidget {
             const Text("4265 **** **** 9725",
                 style: TextStyle(color: Colors.white70)),
             const SizedBox(height: 20),
-            const Text("\R320.00",
+            const Text("R320.00",
                 style: TextStyle(fontSize: 32, fontWeight: FontWeight.bold, color: Colors.white)),
             const Text("No fee", style: TextStyle(color: Colors.white70)),
             const SizedBox(height: 30),
@@ -139,7 +139,7 @@ class TransferAmountScreen extends StatelessWidget {
                 children: [
                   Image.asset('assets/images/mastercard.png', width: 40),
                   const Text("**** 3529", style: TextStyle(fontSize: 16, color: Colors.white)),
-                  const Text("Balance: \R630.00",
+                  const Text("Balance: R630.00",
                       style: TextStyle(color: Colors.white70)),
                   const Icon(Icons.arrow_drop_down, color: Colors.white),
                 ],
@@ -188,7 +188,7 @@ class TransferSuccessScreen extends StatelessWidget {
               const Icon(Icons.check_circle, size: 80, color: Color.fromARGB(237, 6, 223, 176)),
               const SizedBox(height: 20),
               Text(
-                "\R320 has been sent to $name!",
+                "R320 has been sent to $name!",
                 style:
                     const TextStyle(fontSize: 20, fontWeight: FontWeight.bold, color: Colors.white),
                 textAlign: TextAlign.center,

@@ -20,20 +20,27 @@ class _WithdrawPageState extends State<WithdrawPage> {
     super.dispose();
   }
 
-  void _withdraw() {
-    if (_formKey.currentState!.validate()) {
-      String accountNumber = _accountNumberController.text;
-      String amount = _amountController.text;
-      String method = _selectedMethod;
-
+ void _withdraw() {
+  if (_formKey.currentState!.validate()) {
+    double amount = double.tryParse(_amountController.text) ?? 0;
+    if (amount <= 0) {
       ScaffoldMessenger.of(context).showSnackBar(
-        SnackBar(
-          content: Text('Withdrawing $amount via $method to account $accountNumber'),
-          backgroundColor: const Color.fromARGB(237, 6, 223, 176),
-        ),
+        const SnackBar(content: Text('Please enter a valid amount')),
       );
+      return;
     }
+    
+    // Here you would typically check available balance
+    // before proceeding with withdrawal
+    
+    ScaffoldMessenger.of(context).showSnackBar(
+      SnackBar(
+        content: Text('Withdrawing Rs${amount.toStringAsFixed(2)} via $_selectedMethod'),
+        backgroundColor: const Color.fromARGB(237, 6, 223, 176),
+      ),
+    );
   }
+}
 
   @override
   Widget build(BuildContext context) {

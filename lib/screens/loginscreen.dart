@@ -5,7 +5,7 @@ import 'signin.dart';
 import 'forgotpassword.dart';
 
 class LoginPage extends StatelessWidget {
-  LoginPage({Key? key}) : super(key: key);
+  LoginPage({super.key});
 
   final TextEditingController emailController = TextEditingController();
   final TextEditingController passwordController = TextEditingController();
@@ -53,7 +53,7 @@ class LoginPage extends StatelessWidget {
                     ),
                     focusedBorder: OutlineInputBorder(
                       borderRadius: BorderRadius.circular(12),
-                      borderSide: const BorderSide(color: const Color.fromARGB(237, 6, 223, 176), width: 2),
+                      borderSide: const BorderSide(color: Color.fromARGB(237, 6, 223, 176), width: 2),
                     ),
                   ),
                   keyboardType: TextInputType.emailAddress,
